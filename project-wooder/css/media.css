@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1199px) {
+  body .left-padding {
+    padding-left: 200px;
+  }
+  body header nav ul li {
+    padding-left: 60px;
+  }
+  body #furniture .furniture-text {
+    padding-top: 0;
+  }
+  body #decor .decor-text {
+    padding-top: 0;
+  }
+  body #about .about-text {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  body #furniture .furniture-img {
+    height: 325px;
+  }
+  body #decor .decor-img {
+    height: 325px;
+  }
+  body #about .about-img {
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  body .left-padding {
+    padding-left: 0;
+  }
+  body header {
+    text-align: center;
+  }
+  body header nav ul {
+    display: none;
+  }
+  body main {
+    text-align: center;
+  }
+  body main .section .left-main-elem {
+    display: none;
+  }
+  body main .main-content .mouse-icon {
+    background-position: center;
+  }
+  body main .main-content .scroll-wrap .scroll {
+    position: relative;
+    left: 0;
+  }
+  body main .bg .bg-l {
+    background-image: url(../images/bg-l_sm.jpg);
+  }
+  body main .bg .bg-r {
+    background-image: url(../images/bg-r_sm.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body #furniture h2, body #decor h2, body #about h2 {
+    font-size: 34px;
+    letter-spacing: 2px;
+  }
+  body #furniture p, body #decor p, body #about p {
+    line-height: 1.8;
+  }
+  body #furniture h2:before, body #decor h2:before, body #about h2:before {
+    width: 80px;
+    top: 20px;
+  }
+  body #furniture h2.left:before, body #decor h2.left:before, body #about h2.left:before {
+    left: -100px;
+  }
+  body #furniture h2.right:before, body #decor h2.right:before, body #about h2.right:before {
+    right: -100px;
+  }
+  body #furniture .furniture-text {
+    padding-top: 16px;
+    padding-left: 100px;
+  }
+  body #decor .decor-text {
+    padding-top: 8px;
+    padding-right: 100px;
+  }
+  body #about .about-text {
+    padding-top: 34px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body main .main-content h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  body #decor .decor-text {
+    display: inline-block;
+    float: right;
+  }
+  body #about .about-text {
+    padding-left: 140px;
+  }
+  body #video {
+    text-align: center;
+  }
+  body #video .border:before {
+    display: none;
+  }
+  body #video .video-text {
+    display: inline-block;
+    padding: 0;
+  }
+  body #video .video-text h2:before {
+    display: none;
+  }
+  body #video .video-text p:before {
+    display: none;
+  }
+  body footer .section .designed-by {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body header .info-link {
+    display: none;
+  }
+  body header .lang-menu {
+    display: none;
+  }
+  body header nav {
+    float: right;
+  }
+  body .logo {
+    font-size: 24px;
+    top: 3px;
+  }
+  body .logo:before {
+    left: 35px;
+    top: 14px;
+    width: 47px;
+    height: 4px;
+  }
+  body main .main-content h1 {
+    font-size: 50px;
+  }
+  body main .main-content a {
+    padding: 15px 40px;
+  }
+  body #furniture {
+    padding-top: 50px;
+  }
+  body .furniture-text, body .decor-text, body .about-text {
+    padding: 10px 10px !important;
+  }
+  body .furniture-text h2:before, body .decor-text h2:before, body .about-text h2:before {
+    display: none;
+  }
+  body .furniture-text p:before, body .decor-text p:before, body .about-text p:before {
+    display: none;
+  }
+  body h2 {
+    font-size: 32px;
+  }
+  body section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  body .video-text a {
+    padding: 15px 60px !important;
+  }
+  body .video-text a:before {
+    top: 10px !important;
+    left: 30px !important;
+  }
+  body footer {
+    text-align: right;
+  }
+}
